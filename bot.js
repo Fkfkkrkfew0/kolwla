@@ -24,6 +24,18 @@ console.log("Scrpit By ESMAEL");
 
 
 
+client.on('ready', () => {
+    console.log(`Logged in as ${client.user.tag} !`);
+    client.user.setGame(` Streaming minecraft`,`www.twitch.tv/v5bz`);
+  });
+
+
+
+
+
+
+
+
        var prefix = "$";
     client.on('message', message => {
   if (message.author.bot) return;
