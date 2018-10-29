@@ -12,7 +12,7 @@ console.log("Scrpit By ESMAEL");
   .setColor("#000000")
   .addField("Done | تــــم" , ":envelope: | :sleuth_or_spy::skin-tone-3:شيك علي في الخاص")
   
-  
+  hi
   
   message.channel.sendEmbed(embed);
   }
@@ -109,7 +109,7 @@ client.on("ready", () => {
       status: 'dnd',
       game: { 
          type: 0,
-         name: 'Surprise Mother Fucker :) ',
+         name: '$help :) ',
          details: `I'm : KBOOSH - Developer and Programmer`,
          url: 'http://twitch.tv/Streammingg',
          state: `إنْ لَمْ تَجِد لكْ حآقدْ إعلمْ أنْك إنسآن فآشِلْ`,
