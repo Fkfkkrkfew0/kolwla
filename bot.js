@@ -64,7 +64,7 @@ client.on('message', message => {
   let args = message.content.split(" ").slice(1);
 
 
-if(command == "draw") {
+if(command == "say") {
     var Canvas = require('canvas')
   , Image = new Canvas.Image
   , canvas = new Canvas(450, 170)
@@ -91,6 +91,10 @@ message.channel.sendFile(canvas.toBuffer());
     
 
 
+
+client.on("guildCreate", guild => {
+    console.log(` شخص ما اضاف بوت  في سيرفر اسمه ! ${guild.name} اونر سيرفر هو ${guild.owner.user.username}!`)
+  });
 
 
 
